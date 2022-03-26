@@ -25,6 +25,16 @@ Replacing the ninth grader's math and reading scored negatively affected Thomas 
 With the removal of the ninth grade scores, Thomas High School became one of the lower performing schools (Overall Passing Percentage of 69.66%). 
 <img width="884" alt="THS_including9th_graders_NaN" src="https://user-images.githubusercontent.com/98054953/160252632-646424d2-a2ba-4dc7-836c-01f1853ee38b.png">
 
-Rerunning the school district summary with 
+Rerunning the school district summary for Thomas High School with just the scores from 10th to 12th graders brought the scores back to higher averages. 
+
+Looking at the district-wide school summaries, replacing the ninth-grade scores for Thomas High School had the following effects:
+- Math and reading scores by grade
+  - For Thomas High School, the scores for 9th grade were listed as "NaN"
+  - For all other schools, the scores were unchanged
+- Scores by school spending had limited change (less than .1%) due to the small number of students 
+- Scores by school size had limited change (less than .1%) due to the small number of students
+- Scores by school type had no change
+
+
 
 
